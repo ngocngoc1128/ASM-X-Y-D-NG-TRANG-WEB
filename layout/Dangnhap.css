@@ -1,0 +1,58 @@
+.btn{
+    padding: 15px 20px;
+    top: 40px;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    right: 145px;
+    color: white;
+    
+}  
+.btn1{
+    padding: 15px 50px;
+    left: 135px;
+    bottom: 20px;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    color: white;
+}
+h2{
+    color: black;
+    left: 0%;  
+}
+.t_red{
+    color: red;
+}
+.dangnhaptk{
+    position: relative;
+    right: 310px;
+}
+.left{
+    color:white;
+}
+.right{
+    color:white;
+}
+.thoathuan{
+    position: absolute;
+    top: 655px;
+    left: 456px;
+}
+footer{
+    height: 70px;
+    background: black;
+    line-height: 20px;
+    text-align: left;
+    color: #fff;
+    font-size: 17px;
+    font-weight: normal;
+}

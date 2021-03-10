@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+    <html>
+        <title>ĐĂNG KÝ THÀNH VIÊN</title>
+        <meta charset="utf-8">
+        <link href="layout/dangky.css" rel="stylesheet" type="text/css">
+        <link href="layout/layout.css" rel="stylesheet">
+    <head>
+    <body>
+        <script src="https://uhchat.net/code.php?f=c97f62"></script>
+        <div class="container">
+            <header>
+                <a href="#"><img src="image/biahistory2.jpg" alt=""></a>
+            </header>
+
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="INDEX.html">TRANG CHỦ</a></li>
+                    <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                    <li><a href="gopy.html">GÓP Ý</a></li>
+                    <li><a href="Dangnhap.html">ĐĂNG NHẬP</a></li>
+                    <li><a href="Dangky.html">ĐĂNG KÝ</a></li>
+                </ul>       
+            </div>
+            <div class="search">
+                <input type="search" placeholder="Search...">
+                <button>Tìm kiếm</button>
+            </div>
+        </nav>
+    
+        
+
+   
+        <link href="dangky.css" rel="stylesheet" type="text/css">
+    <head>
+        <br>
+        <center><h2 class="dangky"> ĐĂNG KÝ TÀI KHOẢN </h2>
+            <br>
+        <form action="xuly.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Tên đăng nhập</label><br />
+                <input type="text" name="id" class="form-control"/><span class="t_red">*</span>
+            </div>
+            <div class="form-group">
+                <label>Địa chỉ email</label> <br />
+                <input type="text" name="diachiemail" /><span class="t_red">*</span>
+            </div> 
+            <div class="form-group">
+                <label>Mật khẩu</label> <br />
+                <input type="text" name="matkhau"/><span class="t_red">*</span>
+            </div>
+            <div>     
+                <label>Nhập lại mật khẩu</label> <br />
+                <input type="text" name="nhaplaimatkhau"/><span class="t_red">*</span>
+        </div>     
+            <div>
+                <label>Tên đầy đủ</label> <br />
+                <input type="text" name="tendaydu"/><span class="t_red">*</span>
+            </div><br>
+            <div>
+            <label><input type="radio" name="gender" value="female" checked="checked"
+                <input type="radio" name="gender" value="male"/>Nam</label>
+                <label><input type="radio" name="gender" value="female" checked="checked"
+                    <input type="radio" name="gender" value="male"/>Nữ</label>    
+            </div><br>
+            <select id="city">
+                <option value="0">Tỉnh/Thành</option>
+                <option value="SG">Hồ Chí Minh</option>
+                <option value="HN">Hà Nội</option>
+                <option value="ĐN">Đà Nẵng</option>
+                <option value="BD">Bình Dương</option>
+                <option value="ĐNA">Đồng Nai</option>
+                <option value="KH">Khánh Hòa</option>
+                <option value="HP">Hải Phòng</option> 
+                <option value="LA">Long An</option>
+                <option value="QNA">Quảng Nam</option>
+                <option value="VT">Bà Rịa Vũng Tàu</option>
+                <option value="ĐL">Đắk Lắk</option>
+                <option value="CT">Cần Thơ</option>
+                <option value="BTH">Bình Thuận</option>
+                <option value="TTH">Thừa Thiên Huế</option>
+                <option value="KG">Kiên Giang</option>
+                <option value="BN">Bắc Ninh</option>
+                <option value="QN">Quảng Ninh</option>
+                <option value="NA">Nghệ An</option>
+                <option value="HD">Hải Dương</option>
+                <option value="GL">Gia Lai</option>
+                <option value="BP">Bình Phước</option>  
+                <option value="HY">Hưng Yên</option>
+                <option value="BĐ">Bình Định</option>
+                <option value="TG">Tiền Giang</option>
+                <option value="TB">Thái Bình</option>
+                <option value="BG">Bắc Giang</option>
+                <option value="HB">Hòa Bình</option>
+                <option value="AG">An Giang</option>
+                <option value="VP">Vĩnh Phúc</option>
+                <option value="TN">Tây Ninh</option>
+                <option value="TNG">Thái Nguyên</option>
+                <option value="LC">Lào Cai</option>
+                <option value="NĐ">Nam Định</option>
+                <option value="QN">Quảng Ngãi</option>
+                <option value="BT">Bến Tre</option>
+                <option value="ĐN">Đắk Nông</option>
+                <option value="CM">Cà Mau</option>'
+                <option value="VL">Vĩnh Long</option>
+                <option value="NB">Ninh Bình</option>
+                <option value="PT">Phú Thọ</option>
+                <option value="NT">Ninh Thuận</option>
+                <option value="PY">Phú Yên</option>
+                <option value="HN">Hà Nam</option>
+                <option value="HT">Hà Tĩnh</option>
+                <option value="ĐT">Đồng Tháp</option>
+                <option value="ST">Sóc Trăng</option>
+                <option value="KT">Kon Tum</option>
+                <option value="QB">Quảng Bình</option>
+                <option value="QT">Quảng Trị</option>
+                <option value="TV">Trà Vinh</option>
+                <option value="HG">Hậu Giang</option>
+                <option value="SL">Sơn La</option>
+                <option value="BL">Bạc Liêu</option>
+                <option value="YB">Yên Bái</option>
+                <option value="TQ">Tuyên Quang</option>
+                <option value="ĐB">Điện Biên</option>
+                <option value="LC">Lai Châu</option>
+                <option value="LS">Lạng Sơn</option>
+                <option value="HG">Hà Giang</option>
+                <option value="BK">Bắc Kạn</option>
+                <option value="CB">Cao Bằng</option>
+                </select>
+            
+            <div class="thoathuan">
+                Bằng cách nhấn vào Đăng ký, bạn đồng ý với các Điều khoản thỏa thuận, <br>
+                Quy chế hoạt động, Chính sách bảo mật thông tin, Cơ chế giải quyết khiếu nại, <br>
+                Quy định có liên quan khác được công khai trên history.com
+            </div>  
+            <div class="left">
+                <button class="btn">Đăng ký</button>
+            </div>  
+            <div class="right">
+               <button class="btn1">Đăng nhập</button> </a1>
+            </div>
+            <br>
+            <br>
+            <div> <br> 
+                Chú ý: Thông tin Tên đăng nhập, email, số điện thoại di động không thể thay đổi sau khi đăng ký. <br>   
+    Để được trợ giúp vui lòng liên hệ tổng đài CSKH 0764 875 840
+            </div></center>
+    </head>
+    <br>
+    <br>
+    <footer>
+        <h6>Copyright 2021 Hội sử học. All Rights Reserved. <br>
+            Văn bản được phát hành theo Giấy phép Creative Commons 
+            Ghi công - Chia sẻ tương tự, có thể áp dụng điều khoản bổ sung. <br>
+            Với việc sử dụng trang web này, bạn chấp nhận Điều khoản Sử dụng 
+            và Quy định quyền riêng tư.</h6>
+    </footer>
+</body>
